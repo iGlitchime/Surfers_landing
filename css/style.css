@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,400,400i,500,500i,600,600i,700,700i,900&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&subset=cyrillic,latin-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Playfair Display', serif;*/
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(to top, white 10%, transparent 40%), url(../assets/img/top_bg.jpg) 50% no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+
+.header-line {
+    margin: 0 15%;
+    padding: 33px 0;
+}
+
+.header-menu {
+    margin: 0 5px;
+}
+
+.header-menu-items {
+
+    background: transparent;
+    padding: 5px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.header-menu-items:hover {
+    background: #00b0ff;
+    color: white;
+    transition: all .3s ease;
+}
+
+.header-menu-items:hover .header-menu-links {
+    color: white;
+    transition: all .3s ease;
+}
+
+.header-menu-links {
+    font: 14px Montserrat;
+    text-align: left;
+    color: #000000;
+}
+
+.header-logo {
+    width: 174px;
+    font: bold 33px Montserrat;
+    letter-spacing: -1.1px;
+    text-align: left;
+    color: #000000;
+}
+
+.icons-soc {
+    width: 36px;
+    height: 36px;
+    margin: 5px;
+}
+
+.mainblock {
+    padding: 0 15% 50px;
+    margin-bottom: 20px;
+}
+
+.main_announce {
+    font: italic 24px PlayfairDisplay;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 3px 15px rgba(0, 0, 0, 0.64);
+}
+
+.main_title {
+    font: italic 50px PlayfairDisplay;
+    text-align: center;
+    color: #000000;
+}
+
+.item-block {
+    /*max-height: 540px;*/
+    width: 100%;
+    background: url(../assets/img/whiteboard.png) 50% no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin-top: 150px;
+    box-sizing: border-box;
+    box-shadow: -0px -8px 30px 0 rgba(0, 0, 0, 0.34);
+}
+
+.item-view {
+    width: 60%;
+    padding: 20px;
+    background: url(../assets/img/triangle-card.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 50%;*/
+}
+
+.item-main-image {
+
+}
+
+.item-main-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-info {
+    width: 450px;
+    padding: 40px 40px 40px 20px;
+    /*border: 1px solid indianred;*/
+}
+
+.item-title {
+    font: bold 20px/1.3em Montserrat;
+    text-align: left;
+    color: #000000;
+}
+
+.item-stars {
+margin-top: 12px;
+}
+
+.item-star {
+    width: 14px;
+    height: 14px;
+}
+
+.item-stars-count {
+    margin-left: 5px;
+    font: bold 12px/1.5em Montserrat;
+    text-align: left;
+    color: #787878;
+}
+
+.item-menu-line {
+    margin: 30px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #a0a0a0;
+    /*opacity: 0.15;*/
+    width: calc(100% - 50px);
+}
+.item-menu-line-links{
+    margin-right: 30px;
+    font: bold 14px Raleway;
+    letter-spacing: 0.7px;
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+.item-content {
+    font: 100 16px/1.5em Raleway;
+    text-align: left;
+    color: #787878;
+}
+
+.item-price-count{
+    font: bold 24px Montserrat;
+    text-align: left;
+    color: #000000;
+}
+.item-price-button{
+margin-left: 30px;
+    padding: 16px 30px;
+    background-color: #00b0ff;
+    font: bold 14px Montserrat;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffffff;
+}
+.item-price {
+ margin: 35px 0 70px;
+}
+
+.item-link {
+    display: inline-block;
+    font: 16px Montserrat;
+    text-align: left;
+    color: #00b0ff;
+    padding: 4px 0;
+    /* width: 130px; */
+    border-bottom: 2px solid #00b0ff;
+    margin-bottom: 50px;
+}
