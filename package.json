@@ -1,0 +1,29 @@
+{
+  "name": "surfers_landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iGlitchime/Surfers_landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iGlitchime/Surfers_landing/issues"
+  },
+  "homepage": "https://github.com/iGlitchime/Surfers_landing#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^3.9.4",
+    "gulp-plumber": "^1.2.0"
+  }
+}
